@@ -1,0 +1,19 @@
+.btn {
+  @apply rounded-md text-white p-[5px] cursor-pointer;
+}
+
+.btn--primary {
+  @apply bg-[rgb(85,88,237)] hover:bg-[rgb(23,23,220)]; 
+}
+
+.btn--secondary {
+  @apply bg-[rgb(80,82,84)];
+}
+
+.btn-small {
+  @apply text-sm;
+}
+
+.btn-medium {
+  @apply text-lg;
+}
